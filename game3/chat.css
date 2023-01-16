@@ -1,0 +1,15 @@
+.chat{
+    width:500px;
+    height: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.chat-list{
+    height: 500px;
+    width: 100%;
+    border: 1px solid #e9e9e9;
+    background-color: white;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <script src="item/background.js"></script> 
+    <script src="item/enemy.js"></script>
+    <script src="item/boy.js"></script>
+    <script src="panel/game-canvas.js"></script> -->
+    <script type="module" src="app.js"></script>   
+    <script src="ex01-es6-var.js"></script>
+    <style>
+        body{
+            margin:0;
+        }
+        .d-none{
+            display:none;
+        }
+
+
+    </style>
+    <title>캡슐화 완성</title>
+</head>
+<body>
+    
+    <img src="./img/enemy.png" id="enemy" style="display:none">
+    <img src="./img/boy.png" id="boy" style="display:none">
+    <img src="./img/map.png" id="bg" style="display:none">
+    <img src="./img/hit.jpg" id="hit" style="display:none">
+    
+
+
+    
+    <canvas class="game-canvas" width="700" height="700" tabindex="0"></canvas>
+    <canvas class="rank-canvas d-none" width="700" height="700" tabindex="1" ></canvas>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let kor = 20;
+         let eng = 30;
+         let math = 40;
+        let obj={kor,eng,math}
+
+        let createExam = function(exam){
+            let {kor, eng, math} = exam;
+            console.log(kor);
+            console.log(eng);
+            console.log(math);
+        }
+        
+        let x = createExam;
+        console.log(x(obj));
+
+    </script>
+</body>
+</html>
